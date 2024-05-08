@@ -32,4 +32,11 @@ test_objects.py
 ```
 payloads.py
 ```
-
+3. Для того, чтобы сгенерировать Allure отчет
+```
+pytest -s -v —-aluredir=allureresults
+```
+4. Для того, чтобы просмотреть Allure отчет
+```
+allure serve allureresults
+```

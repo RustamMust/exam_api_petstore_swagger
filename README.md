@@ -1,42 +1,42 @@
 # exam_api_petstore_swagger
 
-## Описание
+## Description
 
-Данный проект является экзаменационной работой по модулю requests.
+This project is an examination work for the module requests.
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 ```
 git clone https://github.com/RustamMust/exam_api_petstore_swagger.git
 ```
 
-2. Установите виртуальное окружение:
+2. Install the virtual environment:
 ```
 python3 -m venv venv
 ```
 
-3. Установите зависимости:
+3. Establish dependencies:
 ```
 pip install -r requirements.txt
 ```
 
 
-## Инструкция по использованию проекта
+## How to use the project
 
-1. Основной файл для запуска тестов
+1. Main file for running tests:
 ```
 test_objects.py
 ```
-2. Payloads для POST и PUT запросов
+2. Payloads for POST and PUT requests:
 ```
 payloads.py
 ```
-3. Для того, чтобы сгенерировать Allure отчет
+3. Generate an Allure report:
 ```
 pytest -s -v —-aluredir=allureresults
 ```
-4. Для того, чтобы просмотреть Allure отчет
+4. View the Allure report:
 ```
 allure serve allureresults
 ```

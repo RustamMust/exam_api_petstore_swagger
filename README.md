@@ -28,15 +28,11 @@ pip install -r requirements.txt
 ```
 test_objects.py
 ```
-2. Payloads for POST and PUT requests:
-```
-payloads.py
-```
-3. Generate an Allure report:
+2. Generate an Allure report:
 ```
 pytest -s -v —-aluredir=allureresults
 ```
-4. View the Allure report:
+3. View the Allure report:
 ```
 allure serve allureresults
 ```
